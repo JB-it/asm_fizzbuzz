@@ -1,5 +1,5 @@
 section .data
-    test_msg: db "Fen fen and Blueferd are cute!",0xA,0x0
+    test_msg: db "Hello, World!",0xA,0x0
     fizz: db "Fizz",0x0
     buzz: db "Buzz",0x0
     fizzbuzz: db "FizzBuzz",0x0
@@ -8,7 +8,7 @@ section .data
     write: equ 0x1
     stdout: equ 1
     sys_exit: equ 60
-    
+
     numbers: db "0123456789"
 
     counter: dq 0
